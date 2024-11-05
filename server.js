@@ -19,7 +19,8 @@ app.use(express.json());
 
 const config = {
   authRequired: false,
-  auth0Logout: true
+  auth0Logout: true,
+  baseUrl = "https://auth0-express-webapp-sample.vercel.app/"
 };
 
 const port = process.env.PORT || 3000;
